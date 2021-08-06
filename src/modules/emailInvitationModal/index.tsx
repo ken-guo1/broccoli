@@ -93,11 +93,11 @@ export const EmailInvitationModal: FunctionComponent<EmailInvitationModalProps> 
       email: emailValue
     };
     sendInvite(inputBody);
-    // if(error){
-    //   setErrorValue(error);
-    //   return;
-    // }
-    // setErrorValue("");
+    if(error){
+      setErrorValue(error);
+      return;
+    }
+    setErrorValue("");
     return;
   }
 
