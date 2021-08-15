@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { EmailInvitationPage } from '../pages/emailInvitation';
+import { EmailSignaturePage } from '../pages/emailSignature';
 import { Header } from '../modules/header';
 import { Footer } from '../modules/footer';
 
@@ -20,7 +20,7 @@ function App() {
   return (
     <StyledAppWrapper>
       <Header title="Broccoli &amp; Co" />
-        <EmailInvitationPage />
+        <EmailSignaturePage />
       <Footer company="Broccoli" address="1 Queen St, Melbourne"/>
     </StyledAppWrapper>
 
